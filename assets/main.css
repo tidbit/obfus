@@ -1,0 +1,66 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	padding: 2em;
+	color: #424242;
+	height: 100%;
+	overflow: hidden;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+	margin-bottom: 1em;
+	transition: all 600ms;
+}
+
+h1 svg {
+	display: block;
+	margin: 0 auto;
+	transition: all 600ms;
+}
+
+h1.small svg {
+	display: inline-block;
+	vertical-align: middle;
+	height: 60px;
+	width: 60px;
+}
+
+input {
+	line-height: 2;
+	padding: .5em 1em;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#app svg {
+	display: block;
+	margin: 0 auto;
+	height: 30px;
+	width: 30px;
+	padding: .5em;
+}
+
+#app svg, #app #obfuscated {
+	opacity: 0;
+	transition: all 600ms;
+}
+
+#app.show svg, #app.show #obfuscated {
+	opacity: 1;
+}
+
+input#obfuscated[value] {
+	cursor: pointer;
+}
+
+input {
+	font-family: Menlo, "Courier New", monospace;
+}
