@@ -8,4 +8,4 @@ a little app to obfuscate emails for use in mailto links – an experiment with 
 
 ### Or just download!
 
-http://mas.im/aoUr
+http://mas.im/ap1A
