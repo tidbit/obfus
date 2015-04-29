@@ -5,3 +5,7 @@ a little app to obfuscate emails for use in mailto links – an experiment with 
 - First, make sure you have [electron](http://electron.atom.io/) installed.
 - Then, `git clone` this repo and run `electron`.
 
+
+### Or just download!
+
+http://mas.im/aoUr
